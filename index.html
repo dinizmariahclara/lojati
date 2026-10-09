@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Loja TI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>LojaTI
+    <br>
+    Bem-vindo ao nosso site!</h1>
+    <nav>
+        <ul>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#formulario">Formulário</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+<section id="servicos">
+    <h1>Serviços oferecidos:</h1>
+
+    <div class="servicos">
+        <div class="servico">
+            <img src="manutenção-de-computadores.webp" alt="Manutenção de computadores">
+            <div class="texto-servico">
+                Manutenção
+            </div>
+        </div>
+
+        <div class="servico">
+            <img src="redeconfig.jpg" alt="Instalação de redes">
+            <div class="texto-servico">
+                Instalação de redes
+            </div>
+        </div>
+
+        <div class="servico">
+            <img src="suporte-tecnico.jpg" alt="Suporte técnico">
+            <div class="texto-servico">
+                Suporte técnico
+            </div>
+        </div>
+        <div class="servico">
+            <img src="seguranca digital.webp" alt="Segurança digital">
+            <div class="texto-servico">
+                Segurança digital
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="produtos">
+    <h1>Nossos produtos:</h1>
+
+    <div class="produtos">
+        <div class="produto">
+            <img src="memoria ram.webp" alt="Memória RAM">
+            <div class="texto-produto">
+                Memória RAM <br> R$499,99
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="placa de vídeo.jpg" alt="Placa de vídeo">
+            <div class="texto-produto">
+                Placa de vídeo <br> R$1.499,99
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="gabinete.webp" alt="Gabinete">
+            <div class="texto-produto">
+                Gabinete <br> R$359,99
+            </div>
+        </div>
+        <div class="produto">
+            <img src="cabo-de-rede.webp" alt="Cabos">
+            <div class="texto-produto">
+                Cabos <br> R$22,50
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="formulario">
+    <div class="container">
+        <div class="div1">
+            <h1>Deseja fazer um pedido?<br>
+            Responda o formulário!</h1>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="container_formulario">
+            <form action="http://localhost/lojati/back/index.php" method="post">
+                <input type="text" name="nome_cliente" placeholder="Nome"/>
+                <br>
+                <input type="text" name="email_cliente" placeholder="Email"/>
+                <br>
+                <input type="text" name="telefone_cliente" placeholder="Telefone"/>
+                <br>
+                <input type="text" name="endereco_cliente" placeholder="Endereço"/>
+                <br>
+                <input type="submit" value="Enviar" id="botao"/>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="footer" id="contato">
+    <div class="footer-top">
+        <div class="footer-logo">
+            <img src="3927888b-5e5c-43ab-98f9-080b242e9294.png" alt="Logo da loja de TI">
+            <p>SOLUÇÕES EM TECNOLOGIA</p>
+        </div>
+
+        <div class="footer-coluna">
+            <h3>TECNOLOGIA</h3>
+            <a href="#">Inovação</a>
+            <a href="#">Soluções digitais</a>
+            <a href="#">Novidades</a>
+        </div>
+
+        <div class="footer-coluna">
+            <h3>SUPORTE</h3>
+            <a href="#">Ajuda</a>
+            <a href="#">Manutenção</a>
+            <a href="#">Fale conosco</a>
+        </div>
+
+        <div class="footer-coluna">
+            <h3>INSTITUCIONAL</h3>
+            <a href="#">Sobre nós</a>
+            <a href="#">Projetos</a>
+            <a href="#">Parcerias</a>
+        </div>
+
+        <div class="footer-coluna">
+            <h3>ATENDIMENTO</h3>
+            <a href="#">Dúvidas frequentes</a>
+            <a href="#">Solicitar orçamento</a>
+            <a href="#">Suporte</a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="footer-redes">
+            <a href="#" aria-label="Instagram">ig</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="GitHub">gh</a>
+        </div>
+
+        <p>© 2026 - Todos os direitos reservados.</p>
+    </div>
+</footer>
+</body>
+</html>
